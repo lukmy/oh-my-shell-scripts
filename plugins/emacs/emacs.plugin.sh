@@ -5,6 +5,9 @@ alias emacs='emacs --insecure'
 alias psemacs='ps aux | grep -i emacs'
 alias pse='ps aux | grep -i emacs'
 
+alias killemacs='pkill -i emacs'
+alias pkillemacs=killemacs
+
 MY_SH_EMACS_REMOTE_VPS=${MY_SH_EMACS_REMOTE_VPS:-'conoha'}
 
 emacs_upgrade_from_remote_vps() {
@@ -30,4 +33,4 @@ emacs_stop_remote_vps_upgrade() {
     set +x
 }
 
-alias upgrade_emacs_from_remote_vps='emacs_upgrade_from_remote_vps'
+alias upgrade_emacs_from_remote_vps=emacs_upgrade_from_remote_vps

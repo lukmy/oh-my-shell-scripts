@@ -1,0 +1,12 @@
+* Usage and reason
+
+Use to store normal alias or useful functions to accelerate shell command execution. 
+
+Normally I have to work on bash in company and on zsh in my personal machine, so I want some common and normal scripts can be stored in a folder, managed by git.
+
+* TODOs
+
+- [ ] basic plugin selection and control
+- [X] basic plugin folder
+- [X] emacs alias
+- [X] add readme
