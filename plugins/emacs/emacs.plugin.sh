@@ -5,7 +5,7 @@ alias emacs='emacs --insecure'
 alias psemacs='ps aux | grep -i emacs'
 alias pse='ps aux | grep -i emacs'
 
-alias killemacs='pkill -i emacs'
+alias killemacs='pkill emacs; pkill Emacs'
 alias pkillemacs=killemacs
 
 MY_SH_EMACS_REMOTE_VPS=${MY_SH_EMACS_REMOTE_VPS:-'conoha'}
