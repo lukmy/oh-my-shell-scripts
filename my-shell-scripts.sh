@@ -1,3 +1,5 @@
 MY_SHELL_SCRIPTS=${MY_SHELL_SCRIPTS:-"$HOME/.oh-my-shell-scripts"}
 
-source $MY_SHELL_SCRIPTS/plugins/emacs/emacs.plugin.sh
+for plugin in emacs python; do
+    source $MY_SHELL_SCRIPTS/plugins/$plugin/$plugin.plugin.sh
+done
